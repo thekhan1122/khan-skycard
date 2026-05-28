@@ -1,9 +1,3 @@
 {
   "name": "Khan SkyCard",
-  "render_readme": true,
-  "filename": "khan-skycard.js",
-  "content_in_root": true,
-  "country": ["ALL"],
-  "homeassistant": "2024.1.0",
-  "zip_release": false
 }
