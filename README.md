@@ -1,9 +1,10 @@
 # khan-skycard
 
 **Khan Automation — Home Assistant Custom Energy Flow Card · Sky Edition**
-`khan-skycard.js` · Sky Edition **v1.0.0-pre** *(pre-release)*
+`khan-skycard.js` · Sky Edition **v1.0.0-pre** *(pre-release)*<img width="1640" height="2798" alt="IMG_20260528_175257" src="https://github.com/user-attachments/assets/1f4c0030-6bde-4b70-b3ee-ea5098293b9b" />
 
-> **Note:** This is a pre-release. Expect rough edges. The sky image assets (13 PNGs) must be placed manually — see [Sky Images](#sky-images) below.
+
+> **Note:** This a pre-release. Expect rough edges. The sky image assets (13 PNGs) must be placed manually — see [Sky Images]() below.
 
 > **Origin:** `khan-skycard` is a full visual overhaul of [`k-flow-card`](https://github.com/thekhan1122/k-flow-card) and lives in its own separate repository. It shares the same entity schema and visual editor but replaces the entire SVG canvas with a photographic background system and redesigned celestial / inverter visuals.
 
@@ -11,7 +12,8 @@
 
 ## Overview
 
-`khan-skycard` is a custom Home Assistant Lovelace card that renders a live, animated energy-flow diagram against a full-card photographic sky background. Thirteen background images cover every major weather condition and time-of-day combination — the card selects the correct image automatically from a connected `weather` entity and the current sun elevation.
+`khan-skycard` is a custom Home Assistant Lovelace card that renders a live, animated energy-flow diagram against a full-card photographic sky background. Thirteen background images cover every ma
+jor weather condition and time-of-day combination — the card selects the correct image automatically from a connected `weather` entity and the current sun elevation.
 
 The card is self-contained in a single JavaScript file — no NPM, no build step, no additional dependencies.
 
