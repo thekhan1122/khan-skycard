@@ -6,11 +6,16 @@ Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
 to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+copies of the Software, subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+1. The Software may only be used, modified, and distributed for **personal or non-commercial purposes**.  
+   "Non-commercial" means not primarily intended for or directed towards commercial advantage or monetary compensation.
+
+2. Any distribution of the Software, modified or unmodified, must include this
+   copyright notice and license terms, and must be for **non-commercial purposes only**.
+
+3. Forking the repository on any platform and using the code for personal,
+   non-commercial projects is explicitly allowed.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
