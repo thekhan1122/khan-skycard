@@ -1,10 +1,8 @@
 # khan-skycard
 
 **Khan Automation — Home Assistant Custom Energy Flow Card · Sky Edition**
-`khan-skycard.js` · Sky Edition **v1.0.4-pre** *(pre-release)*<img width="1640" height="2798" alt="IMG_20260528_175257" src="https://github.com/user-attachments/assets/1f4c0030-6bde-4b70-b3ee-ea5098293b9b" />
+`khan-skycard.js` · Sky Edition **v1.0.5 *<img width="1640" height="2798" alt="IMG_20260528_175257" src="https://github.com/user-attachments/assets/1f4c0030-6bde-4b70-b3ee-ea5098293b9b" />
 
-
->  **Note:** This is a pre-release. Expect rough edges. The sky image assets (13 PNGs) must be placed manually — see [Sky Images](#sky-images) below.
 
 > **Origin:** `khan-skycard` is a full visual overhaul of [`k-flow-card`](https://github.com/thekhan1122/k-flow-card) and lives in its own separate repository. It shares the same entity schema and visual editor but replaces the entire SVG canvas with a photographic background system and redesigned celestial / inverter visuals.
 
@@ -37,14 +35,41 @@ The card is self-contained in a single JavaScript file — no NPM, no build step
 | **PWR bar** | Rounded | Square-cornered with live % label, colour blue → orange |
 | **Flow paths** | Routed to large INV box | Rerouted to tiny badge; grid + battery converge at y=320; load drops vertically from y=430 |
 
+
 ---
 
-## Sky Images
+📦 Installation
+Option A — HACS (Recommended)
 
+Requires HACS to be installed in Home Assistant.
+
+Open HACS in Home Assistant → Frontend.
+Click the ⋮ menu (top-right) → Custom repositories.
+Paste your repository URL:
+
+   https://github.com/thekhan1122/khan-skycard
+
+Set category to Lovelace and click Add.
+Search for k-flow-card and click Download.
+HACS automatically downloads the card and all icon files into /config/www/community/khan-skycardcard/. No manual file copying needed.
+Hard-refresh your browser (Ctrl + Shift + R / Cmd + Shift + R).
+
+
+HACS registers the Lovelace resource automatically. Skip the manual resource step below.
+
+
+Option B — Manual Installation
+
+Go to the repository and download these files from the dist/ folder:
+
+khan-skycard.js
+
+
+Create the folder /config/www/community/khan-skycard/ and place all 13 files inside it:release. Not available for this pre-release.
+
+## Sky Images
 The card needs 13 PNG files placed at:
 
-```
-/config/www/community/khan-skycard/sky/
 ```
 
 | Filename (no extension) | Condition |
@@ -64,38 +89,6 @@ The card needs 13 PNG files placed at:
 | `sky-fog-day` | Fog / mist (any time) |
 
 All images must be **PNG** format. 
-
----
-
-## Installation
-
-### Manual (only option for pre-release)
-
-1. Copy `khan-skycard.js` to:
-   ```
-   /config/www/community/khan-skycard/khan-skycard.js
-   ```
-
-2. Copy your 13 sky PNG images to:
-   ```
-   /config/www/community/khan-skycard/sky/
-   ```
-
-3. Register as a Lovelace resource:
-   *(Settings → Dashboards → Resources → Add)*
-   ```yaml
-   url: /local/community/khan-skycard/khan-skycard.js
-   type: module
-   ```
-
-4. Add to a dashboard view:
-   ```yaml
-   type: custom:khan-skycard
-   ```
-
-5. Open the visual editor to configure entities.
-
-> HACS support is planned for a stable release. Not available for this pre-release.
 
 ---
 
@@ -405,4 +398,4 @@ Include when filing an issue:
 
 ---
 
-*Khan Automation · khan-skycard · Sky Edition v1.0.0-pre*
+*Khan Automation · khan-skycard · Sky Edition v1.0.5*
