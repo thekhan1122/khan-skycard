@@ -61,7 +61,7 @@ The card needs 13 PNG files placed at:
 | `sky-snowy-day` | Snow, daytime |
 | `sky-fog-day` | Fog / mist (any time) |
 
-All images must be **PNG** format. Recommended resolution: **800 × 480 px** or higher (the card stretches to fill). The card falls back to `sky-clear-day.png` if the weather entity is unavailable.
+All images must be **PNG** format. 
 
 ---
 
