@@ -1,6 +1,7 @@
 # khan-skycard
 
 **Khan Automation — Home Assistant Custom Energy Flow Card · Sky Edition**
+
 `khan-skycard.js` · Sky Edition **v1.0.5 *<img width="1640" height="2798" alt="IMG_20260528_175257" src="https://github.com/user-attachments/assets/1f4c0030-6bde-4b70-b3ee-ea5098293b9b" />
 
 
@@ -65,8 +66,7 @@ Go to the repository and download these files from the dist/ folder:
 khan-skycard.js
 
 
-Create the folder /config/www/community/khan-skycard/ and place all 13 files inside it:release. Not available for this pre-release.
-
+Create the folder /config/www/community/khan-skycard/ and place all 13 files inside it.
 ## Sky Images
 The card needs 13 PNG files placed at:
 
